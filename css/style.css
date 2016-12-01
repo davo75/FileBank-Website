@@ -1,0 +1,598 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.splash { 
+    /* The image used */
+    background-image: url("../images/clouds_bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo {
+    height: 321px;
+    width: 292px;
+    background-image: url("../images/fb_logo_big.png");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+
+
+#title {
+    margin: 0 auto;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+
+#title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: #eedc18;
+    text-transform: uppercase;
+    letter-spacing: 18px;    
+}
+
+#title h1 span {
+    color: #ffffff;
+}
+
+#subtitle {
+    margin: 0 auto;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    top: 180px;
+}
+
+#subtitle h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    
+}
+
+#arrows {
+    color: #fff;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+#arrows a:link, #arrows a:visited{
+    color: #fff;
+}
+
+#arrows a:hover {
+    color: #eedc18;
+}
+
+.menubg {
+    height: 80px;
+    background: linear-gradient(to bottom, #ffffff 0%,#f8f8f8 100%);
+    border-bottom: 1px solid #c4c3c3;
+    position:fixed;
+    top: 0;
+    width:100%;
+    box-shadow: 0 1px 2px rgba(0,0,0,.3);
+    z-index: 999;
+}
+
+.menuSplash {
+    position:absolute;
+    top: 100%;
+}
+
+.fixed {
+    position:fixed;
+    top:0px;
+    
+}
+
+
+
+#menuLogo {
+    float: left;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+
+nav {
+    float: right;
+    
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+   
+}
+
+li {
+    float: left;
+    margin-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: 80px;
+}
+
+.current {
+    border-bottom: 3px solid #eedc18;
+    color:#000;
+}
+
+li a:link, a:visited {
+    text-decoration: none;
+    color: #757474;
+    display: inline-block;
+    padding: 30px 5px 5px 10px;
+}
+
+li a:hover {
+ border-bottom: 3px solid #eedc18;
+    color:#000;
+}
+
+.current {
+    border-bottom: 3px solid #eedc18;
+}
+
+#login {
+    background-color: #0b495e;
+    height: 81px;
+}
+
+#login a {
+    color: #eedc18;
+}
+
+#login a:hover {
+    color: #fff;
+    border-bottom: none;    
+}
+
+
+main {
+    max-width: 1040px;
+    margin: 0 auto 0;
+    position: relative;
+    top: 130px;
+    overflow:  hidden;
+    display: block; /* Fixes IE lack of support for main tag */
+}
+
+
+main h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    color: #202020;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
+
+.title {
+    background: #eedc18 no-repeat;
+    width: 180px;
+    height: 8px;
+    border: none;
+    text-align: left;
+}
+
+main img#imgFeatures {
+    float:left;
+    margin: 30px 50px 80px 80px;
+}
+
+main h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #202020;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    
+}
+main p {
+     font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #202020;
+    font-weight: 300;    
+    margin-top: 40px;
+    line-height: 40px;
+}
+
+main h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: #202020;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 30px;    
+}
+
+main.privacy p.first {
+	margin-top: 50px;
+}
+
+main.privacy p {
+	margin-top: 20px;
+}
+
+
+#mac {
+    clear: both;
+    background-image: url("../images/macbg.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#wrapper {
+    width: 460px;
+    float: left;
+    margin: 30px 0 0 30px;
+}
+
+.ceo {
+    margin-top: -60px;
+    margin-left: 50px;
+}
+
+#ceoPic {
+	float: left;
+	width: 530px;
+}
+
+#ceoText {
+
+}
+
+.goRight {
+	float: right;
+	margin-top: 20px;
+	margin-right: 	60px;
+}
+
+#tag {
+    margin-left: 145px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.highlight {
+    color: #eedc18;
+}
+
+#macImg {
+    margin:20px;
+}
+
+.featureList {
+    width: 515px;
+    margin-bottom: 30px;
+}
+
+img.icon {
+    float:left;
+    margin: 20px 30px 20px 30px;
+}
+
+.featureList h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #fff;
+    padding: 20px 30px 10px 30px;
+}
+
+.featureList p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 300;    
+    margin: 0px 30px 10px 0px;
+    line-height: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -178px;
+    visibility: hidden;
+}
+
+footer {
+    clear: both;
+    height: 270px;
+    background-color: #062834;
+    margin-top: 250px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 300; 
+    letter-spacing: 1px;
+}
+
+footer a:link, footer a:visited{
+    color: #eedc18;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+
+#footerWrap {
+    max-width: 1040px;
+    margin: 0 auto 0;
+    height: 100%;
+}
+
+.leftCol {
+    float:left;
+    width: 700px;
+}
+
+.leftCol p {
+       
+    margin: 20px 0px 0px 10px;
+    line-height: 20px;
+    width: 330px;
+}
+
+.leftCol img {
+    margin-top: 20px;
+}
+
+.rightCol {
+    float: left;
+    padding-top: 20px;
+}
+
+.rightCol p{
+    margin: 10px 0px 0px 10px;
+    line-height: 20px;
+}
+
+#first {
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+#bar {
+    background-color: #041d26;
+    height: 60px;
+    position: relative;
+    bottom: 0px;
+}
+
+#barWrap {
+    max-width: 1040px;
+    margin: 0 auto 0;
+    height: 100%;
+}
+
+#barWrap i {
+    opacity: 0.7;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+#barWrap img {
+    margin-top: -10px;
+    
+}
+
+
+table {
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;    
+    color: #444;
+    text-align: center;
+    margin: 40px auto 80px auto;
+}
+
+table p {
+    font-family: 'Montserrat', sans-serif !important;
+    margin-top: 0px !important;
+    font-size: 14px !important;
+    color: #444 !important;
+}
+
+.tableMain {
+    background-color: #e6ecef;
+    text-align: left;
+}
+
+.tableMain td {
+    padding: 15px;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #e6ecef;
+}
+
+td.left {
+    text-align: left;
+    padding-left: 40px;
+}
+
+#cta {
+    width: 1040px;
+    margin: 80px auto;
+    text-align: center;
+}
+.button {
+    padding: 20px 55px;
+    border-radius: 5px;
+    background-color: #0b495e;
+    color: #eedc18;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+	cursor: pointer;
+	border-color: transparent;
+}
+
+#cta a:link, #cta a:visited{
+    color: #eedc18;
+}
+
+#cta a:hover {
+    color: #fff;
+}
+
+
+/* Contact Page Styles */
+
+#contactWrap {
+	height: 1000px;
+	background-image: url("../images/mountains.jpg");
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	margin-bottom: -250px;
+}
+
+.contact {
+    max-width: 1040px;
+    margin: 0 auto 0;
+    position: relative;
+    top: 130px;
+    overflow:  hidden;
+}
+
+.contact h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    color: #202020;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
+
+#formWrap {
+	
+	float:right;
+    margin-top: 60px;
+}
+
+#contactForm {
+	width: 600px;
+	background-color: transparent;
+}
+
+#contactForm a:link, #contactForm a:visited{
+    color: #eedc18;
+}
+
+#contactForm button {
+    font-family: 'FontAwesome', 'Raleway', sans-serif;
+}
+
+#contactForm button:hover {
+    color: #fff;
+}
+
+
+input[type=text] {
+    width: 250px;
+    padding: 15px;
+    margin: 8px 0;
+	border: 1px solid #ccc;
+    border-radius: 6px;
+	float: left;
+	outline: none;
+	background-color: rgba(249, 249, 249, 0.3);
+	font-family: 'FontAwesome', 'Raleway', sans-serif;
+	font-size: 16px;
+}
+
+textarea {
+	clear: both;
+	width: 100%;
+    height: 250px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    resize: none;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	outline: none;
+	background-color: rgba(249, 249, 249, 0.3);
+	font-family: 'FontAwesome', 'Raleway', sans-serif;
+	font-size: 16px;
+}
+
+button {
+	float:right;
+}
+
+#firstName {
+	margin-right: 30px;
+	background:transparent url('../images/user.png') 10px  no-repeat;
+	text-indent: 30px;
+}
+
+#email {	
+	background:transparent url('../images/email.png') 10px  no-repeat;
+	text-indent: 30px;
+}
+ 
+#map {
+    float: left;
+     margin-top: 60px;
+}
+
+#map img {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+address {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
